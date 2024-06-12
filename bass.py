@@ -48,7 +48,7 @@ for beat in melody:
 print(f'finger = {line}')
 
 print('')
-for string in pattern:
+for string in tuning:
     line = ''
     for beat in melody:
         if beat.string == string:
