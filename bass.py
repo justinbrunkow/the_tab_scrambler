@@ -24,7 +24,7 @@ class note:
         self.fret   = fret
         self.letter = fretboard[string][fret]
 
-position = randint(1, frets - 3)
+position = randint(0, frets - 4)
 pattern  = {}
 for string in tuning:
     pattern[string] = []
