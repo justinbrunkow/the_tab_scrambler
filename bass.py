@@ -60,3 +60,5 @@ for string in pattern:
             line += '———————'
     print(f'     {string} | {line}')
 print('')
+
+# test
